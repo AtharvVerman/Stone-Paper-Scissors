@@ -15,3 +15,63 @@ body{
     height: 1.3em;
     font-style: underline;
 }
+
+.choices{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 46px;
+}
+
+img{
+    height: 115px;
+    width: 115px;
+    border-radius: 100px;
+}
+.choice {
+    height: 125px;
+    width: 125px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 14px;
+}
+
+.score-board{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin: 35px;
+}
+
+
+.score{
+    height: 20px;
+}
+
+.count{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.msg-container{
+    /* height: auto;
+    width: fit-content; */
+    /* background-color: #bf73c9; */
+    border-radius: 5px;
+    display: flexbox;
+    color: white;
+}
+
+#msg{
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    background-color: rgb(182, 61, 61);
+}
